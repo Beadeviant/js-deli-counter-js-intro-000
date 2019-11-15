@@ -22,7 +22,7 @@ if (array.length > 0) {
   for (var i = 0; i < array.length; i++) {
 var names = array[i];
   }
-    return `The line is currently: 1. ${array[0]}, 2. ${array[1]} 3. ${array[2]}`;
+    return `The line is currently: 1. ${array[0]}, 2. ${array[1]}, 3. ${array[2]}`;// I wrote in the numbers instead of having them populate one by one.
 } else{
   return "The line is currently empty.";
 
